@@ -1,0 +1,41 @@
+
+img {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+button {
+    background: rgb(2, 134, 2);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;   
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+.text2 {
+    text-align: justify;
+}
+
+.card {
+    display: block;
+    
+}
